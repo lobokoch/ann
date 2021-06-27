@@ -3,8 +3,8 @@
 **FUNDAÇÃO UNIVERSIDADE REGIONAL DE BLUMENAU**  
 **CENTRO DE CIÊNCIAS EXATAS E NATURAIS**  
 **DEPARTAMENTO DE SISTEMAS E COMPUTAÇÃO**  
-**Professor Daniel dos Santos**  
-**Redes Neurais (Pós-graduação em Data Science)**  
+**Professor: Daniel dos Santos**  
+**Disciplina: Redes Neurais (Pós-graduação em Data Science)**  
 **Aluno: Márcio Koch**  
 
 ## Objetivo do trabalho

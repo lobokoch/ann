@@ -41,8 +41,8 @@ Configurações do forward:
 #### Resultados da arquitetura 1
 - Algoritmo utilizado:
 - Acurácia: 67,8 %
-- Arquivo de código fonte da rede
-- Arquivo hidden.csv
+- [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura1)
+- [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura1)
 -----------------------
 
 

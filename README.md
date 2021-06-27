@@ -17,7 +17,7 @@ Abaixo segue o resultado.
 Foram utilizadas três arquiteturas diferentes no trabalho. Abaixo elas são descritas.  
 **Notas:**
 - o Dataset para treinamento possui **30 features** de **entrada** e **12 classes** de **saída**;
-- O Dataset de entrada possui na primeira linha os títulos das colunas e possui **1.170.511** linhas de dados para treinamento (o arquivo foi disponibilizado pelo professor Daniel);
+- O Dataset de entrada, um arquivo CSV (arquivo lithology.csv disponibilizado pelo professor Daniel) possui na primeira linha os títulos das colunas e possui **1.170.511** linhas de dados para treinamento;
 - todas as arquiteturas utilizaram **70%** dos dados para treino e **30%** dos dados para testes;
 - todas as arquiteturas utilizaram **CrossEntropyLoss** como critério de cálculo da **loss**.
 

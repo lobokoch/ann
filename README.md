@@ -22,8 +22,8 @@ Foram utilizadas três arquiteturas diferentes no trabalho. Abaixo elas são des
 
 ### Arquitetura 1
 Épocas: 100
-Otimizador de gradiente: SGD (Stochastic Gradient Descent) - `SGD(model.parameters(), lr=0.01, momentum=0.9)`
-Dropout: 20%
+Otimizador de gradiente: SGD - `SGD(model.parameters(), lr=0.01, momentum=0.9)`  
+Dropout: 20%  
 Configurações iniciais da rede: 
 | Camada | Nós entrada | Nós saída |
 |--|--|--|
@@ -46,9 +46,9 @@ Configurações do forward:
 
 ### Arquitetura 2
 Épocas: 100
-Otimizador de gradiente:  Adam - `Adam(model.parameters(), lr=0.003)`
-Dropout: 20%
-Configurações iniciais da rede: 
+Otimizador de gradiente:  Adam - `Adam(model.parameters(), lr=0.003)`  
+Dropout: 20%  
+Configurações iniciais da rede:   
 | Camada | Nós entrada | Nós saída |
 |--|--|--|
 | 1 | 30 | 200|

@@ -1,4 +1,4 @@
-# Trabalho Final: Redes neurais e geociências
+# (WIP) - Trabalho Final: Redes neurais e geociências
 
 **FUNDAÇÃO UNIVERSIDADE REGIONAL DE BLUMENAU**  
 **CENTRO DE CIÊNCIAS EXATAS E NATURAIS**  

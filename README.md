@@ -36,7 +36,7 @@ Configurações iniciais da rede:
 | 5 | 20 | **12**| Não | Softmax |
 
 #### Resultados da arquitetura
-- Acurácia: **67,8 %**
+- Acurácia: **14,4 %**
 - [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura1)
 - [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura1)
 -----------------------

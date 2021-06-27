@@ -34,16 +34,37 @@ Configurações iniciais da rede:
 | 5 | 20 | 12|
 
 Configurações do forward:
-- Dropout
+- Dropout nas 4 primeiras camadas
 - Função de ativação das 4 primeiras camadas: ReLu
 - Função de ativação da 5 camada: Softmax
 
 #### Resultados da arquitetura 1
-- Algoritmo utilizado:
 - Acurácia: 67,8 %
 - [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura1)
 - [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura1)
 -----------------------
 
+### Arquitetura 2
+Épocas: 100
+Otimizador de gradiente:  Adam - `Adam(model.parameters(), lr=0.003)`
+Dropout: 20%
+Configurações iniciais da rede: 
+| Camada | Nós entrada | Nós saída |
+|--|--|--|
+| 1 | 30 | 200|
+| 2 | 200 | 100|
+| 3 | 100 | 80|
+| 4 | 80 | 12|
+
+Configurações do forward:
+- Dropout nas 3 primeiras camadas
+- Função de ativação das 3 primeiras camadas: ReLu
+- Função de ativação da 4 camada: Softmax
+
+#### Resultados da arquitetura 1
+- Acurácia: 61,6 %
+- [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura2)
+- [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura2)
+-----------------------
 
 

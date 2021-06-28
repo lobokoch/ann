@@ -88,11 +88,11 @@ Configurações iniciais da rede:
 Configurações iniciais da rede:   
 | Camada | Nós entrada | Nós saída | Função de ativação |  
 |--|--|--|--|--|
-| 1 | **30** | 50|  hyperbolic tangent|
-| 2 | 50| 40|  hyperbolic tangent|
-| 3 | 40| 30|  hyperbolic tangent|
-| 4 | 30| 20|  hyperbolic tangent|
-| 5 | 20| **12**|  n/a |
+| 1 | **30** | 50 |  hyperbolic tangent |
+| 2 | 50 | 40 |  hyperbolic tangent |
+| 3 | 40 | 30 |  hyperbolic tangent |
+| 4 | 30 | 20 |  hyperbolic tangent |
+| 5 | 20 | **12** |  n/a |
 
 #### Resultados da arquitetura
 - Acurácia: **61,5 %**

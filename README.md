@@ -1,4 +1,4 @@
-# (WIP) - Trabalho Final: Redes neurais e geociências
+# (WIP) Trabalho Final: Redes neurais e geociências
 
 **FUNDAÇÃO UNIVERSIDADE REGIONAL DE BLUMENAU**  
 **CENTRO DE CIÊNCIAS EXATAS E NATURAIS**  
@@ -14,7 +14,7 @@ arquiteturas de redes neurais e compará-las em problema de classificação de
 granulometria.
 Abaixo segue o resultado.
 
-Foram utilizadas três arquiteturas diferentes no trabalho. Abaixo elas são descritas.  
+Foram criadas 4 arquiteturas de redes neurais diferentes no trabalho. Abaixo elas estão descritas.  
 **Notas:**
 - o Dataset para treinamento possui **30 features** de **entrada** e **12 classes** de **saída**;
 - O Dataset de entrada, um arquivo CSV (arquivo lithology.csv disponibilizado pelo professor Daniel) possui na primeira linha os títulos das colunas e possui **1.170.511** linhas de dados para treinamento;
@@ -79,6 +79,25 @@ Configurações iniciais da rede:
 - Acurácia: **0,01 %**
 - [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura3)
 - [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura3)
+-----------------------
+
+### Arquitetura 4
+- Épocas: **300**
+- Otimizador de gradiente: **SGD** - `SGD(model.parameters(), lr=0.01, momentum=0.9)`  
+
+Configurações iniciais da rede:   
+| Camada | Nós entrada | Nós saída | Função de ativação |  
+|--|--|--|--|--|
+| 1 | **30** | 50|  hyperbolic tangent|
+| 2 | 50| 40|  hyperbolic tangent|
+| 3 | 40| 30|  hyperbolic tangent|
+| 4 | 30| 20|  hyperbolic tangent|
+| 5 | 20| **12**|  n/a |
+
+#### Resultados da arquitetura
+- Acurácia: **61,5 %**
+- [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura4)
+- [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura4)
 -----------------------
 
 

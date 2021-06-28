@@ -87,7 +87,7 @@ Configurações iniciais da rede:
 
 Configurações iniciais da rede:   
 | Camada | Nós entrada | Nós saída | Função de ativação |  
-|--|--|--|--|--|
+|--|--|--|--|
 | 1 | **30** | 50 |  hyperbolic tangent |
 | 2 | 50 | 40 |  hyperbolic tangent |
 | 3 | 40 | 30 |  hyperbolic tangent |

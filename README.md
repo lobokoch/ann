@@ -60,4 +60,25 @@ Configurações iniciais da rede:
 - [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura2)
 -----------------------
 
+### Arquitetura 3
+- Épocas: **50**
+- Otimizador de gradiente: **SGD** - `SGD(model.parameters(), lr=0.01, momentum=0.9)`  
+
+Configurações iniciais da rede:   
+| Camada | Nós entrada | Nós saída | Alg. ini. pesos| Função de ativação |  
+|--|--|--|--|--|
+| 1 | **30** | 1024| kaiming | ReLu |
+| 2 | 1024| 512| kaiming | ReLu |
+| 3 | 512| 256| kaiming | ReLu |
+| 4 | 256 | 256| kaiming | ReLu |
+| 5 | 256 | 256| kaiming | ReLu |
+| 6 | 256 | 256| kaiming | ReLu |
+| 7 | 256 | **12**| xavier | Softmax |
+
+#### Resultados da arquitetura
+- Acurácia: **0,01 %**
+- [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura3)
+- [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura3)
+-----------------------
+
 

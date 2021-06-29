@@ -14,6 +14,8 @@ arquiteturas de redes neurais e compará-las em problema de classificação de
 granulometria.
 Abaixo segue o resultado.
 
+## Relatório da implementação do trabalho
+
 Foram criadas 4 arquiteturas de redes neurais diferentes no trabalho. Abaixo elas estão descritas.  
 **Notas:**
 - o Dataset para treinamento possui **30 features** de **entrada** e **12 classes** de **saída**;
@@ -99,5 +101,12 @@ Configurações iniciais da rede:
 - [Arquivo de código fonte da implementação](https://github.com/lobokoch/ann/tree/main/arquitetura4)
 - [Arquivo de resultado hidden.csv](https://github.com/lobokoch/ann/tree/main/arquitetura4)
 -----------------------
+
+## Conclusão
+
+Com base nos resultados obtidos de acurrácia baixa, mesmo testando com diferentes arquiteturas de redes neurais (apesar de estar apresentado apenas 4 arquiteturas nos rsultados do trabalho, foram empregadas mais de 20 diferentes arquiteturas). Assim, supõem-se que a base do dataset possui anomalias e ruídos nos dados. A fim de aumentar a acurrária seria necessário empregar uma ampla exploração e transformação nos dados do dataset, bem como efeturar novos esperimentos com diferentes arquiteturas de redes neurais.
+
+Mas mesmos com resultados de acurrária baixos, foi perfeitamente possível compreender e explorar o funcionamento das redes neurais artificias, tanto classificação binária quanto multi classes. O Python oferece uma ampla gama de bibliotecas, como o pytorch, sklearn, numpy e pandas para manipular os dados desde o carregamento do dataset no formato csv, aplicação das técnicas de redes neurais, calcúlo e e extração dos resultados e persistência dos resultados também em arquico csv.
+
 
 

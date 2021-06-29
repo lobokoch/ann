@@ -1,4 +1,4 @@
-# (WIP) Trabalho Final: Redes neurais e geociências
+# Trabalho Final: Redes neurais e geociências
 
 **FUNDAÇÃO UNIVERSIDADE REGIONAL DE BLUMENAU**  
 **CENTRO DE CIÊNCIAS EXATAS E NATURAIS**  
@@ -104,9 +104,10 @@ Configurações iniciais da rede:
 
 ## Conclusão
 
-Com base nos resultados obtidos de acurrácia baixa, mesmo testando com diferentes arquiteturas de redes neurais (apesar de estar apresentado apenas 4 arquiteturas nos rsultados do trabalho, foram empregadas mais de 20 diferentes arquiteturas). Assim, supõem-se que a base do dataset possui anomalias e ruídos nos dados. A fim de aumentar a acurrária seria necessário empregar uma ampla exploração e transformação nos dados do dataset, bem como efeturar novos esperimentos com diferentes arquiteturas de redes neurais.
+Com base nos resultados obtidos de acurácia baixa, mesmo testando com diferentes arquiteturas de redes neurais (apesar de estar apresentado apenas 4 arquiteturas nos resultados do trabalho, foram empregadas mais de 20 diferentes arquiteturas). Assim, supõem-se que a base do dataset possui anomalias e ruídos nos dados. A fim de aumentar a acurácia seria necessário empregar uma ampla exploração e transformação nos dados do dataset, bem como efetuar novos experimentos com diferentes arquiteturas de redes neurais.
 
-Mas mesmos com resultados de acurrária baixos, foi perfeitamente possível compreender e explorar o funcionamento das redes neurais artificias, tanto classificação binária quanto multi classes. O Python oferece uma ampla gama de bibliotecas, como o pytorch, sklearn, numpy e pandas para manipular os dados desde o carregamento do dataset no formato csv, aplicação das técnicas de redes neurais, calcúlo e e extração dos resultados e persistência dos resultados também em arquico csv.
+Mas mesmo com resultados de acurácia baixos, foi perfeitamente possível compreender e explorar o funcionamento das redes neurais artificiais, tanto classificação binária quanto multi classes. O Python oferece uma ampla gama de bibliotecas, como o pytorch, sklearn, numpy e pandas para manipular os dados desde o carregamento do dataset no formato csv, aplicação das técnicas de redes neurais, cálculo e extração dos resultados e persistência dos resultados também em arquivo csv.
+
 
 
 
